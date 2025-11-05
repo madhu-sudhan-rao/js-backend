@@ -1,6 +1,6 @@
 
 // this is a local module
-require('./add.js');
+// require('./add.js');
 
 // In node.js, each file is a module that is isolated by default
 
@@ -10,6 +10,13 @@ require('./add.js');
 
 // If the file we are requiring is a javascript file, we can skip specifying the extension
 // and node.js will infer it on our behalf
+
+
+const add = require('./add.js');
+
+const sum = add(1, 2);
+console.log(sum);
+
 
 
 console.log('hello world');
