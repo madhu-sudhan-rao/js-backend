@@ -12,11 +12,15 @@
 // and node.js will infer it on our behalf
 
 
-const add = require('./add.js');
+// const add = require('./add.js'); // we can also assign if we use module.exports
 
-const sum = add(1, 2);
-console.log(sum);
+// const sum = add(1, 2);
+// console.log(sum);
+
+// console.log('hello world');
+
+// ------------------
 
 
-
-console.log('hello world');
+require('./batman.js');
+require('./superman.js');
